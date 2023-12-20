@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url(../img/bg-desk.png) top center / cover no-repeat #333;
+}
+
+
+header.senac {
+    background-color: #50D7E2;
+  }
+  header.senac {
+    height: 80px;
+    z-index: 99;
+    margin-top: 0;
+    top: 0;
+    padding-top: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .header-tecnicos {
+    position: relative;
+    overflow: hidden;
+    height: 80px;
+    background-image: url(../img/bg-topo-logobg.png), url(../img/topo.jpg);
+    background-position: right,center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+  }
+  .container {
+    max-width: 990px;
+  }
+  #nome-curso {
+    color: #fff;
+  }
+  #nome-curso {
+    position: relative;
+    display: block;
+    float: left;
+    top: 1.7em;
+    top: 15%;
+    left: 2.0em;
+    font-size: 1.5em;
+    font-family: 'robotoregular', Arial, Verdana, Helvetica;
+    text-transform: uppercase;
+  }
+  #logo-senac {
+    position: relative;
+    float: right;
+    right: 2.7em;
+    top: 1em;
+  }
+  @media screen and (max-width: 800px) {
+    .container {
+      max-width: 96%;
+    }
+  }
+  h1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#top-quiz {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30px;
+  }

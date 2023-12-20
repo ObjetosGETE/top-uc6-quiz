@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP UC6 - Quiz</title>
+</head>
+<body>
+
+    <header id="topo" class="senac no-print">
+        <div class="header-tecnicos container">
+        	  <h1 id="nome-curso">Técnico em Óptica</h1>
+            <div id="logo-senac"><img src="img/logo-senac.png" alt="logo do senac"></div>
+        </div>
+        <div id="sombra"></div>
+    </header>
+
+    <div id="top-quiz">
+        <div id="top-slides">
+            <div class="top-slide">
+                <div class="titulo">
+                    <h2>1. Técnica de lapidação</h2>
+                </div>
+                <div class="pergunta">
+                    <p>Qual é o propósito principal da técnica de lapidação na montagem de óculos semiaro?</p>
+                </div>
+                <div class="respostas">
+                    <button type="button" data-label="a" class="bto">Ajustar as hastes para ficarem firmes no rosto do usuário.</button>
+                    <button type="button" data-label="b" class="bto">Recortar as lentes no formato da armação escolhida. </button>
+                    <button type="button" data-label="c" class="bto">Alinhar a armação para que não fique frouxa no rosto do usuário.</button>
+                    <button type="button" data-label="d" class="bto">Preencher a ficha técnica com os dados de fabricação e montagem.</button>
+                </div>
+            </div>
+        </div>
+        <nav id="navegacao"> <!-- Sobe e desce quando necessário alem de aparecer e desaparecer -->
+            <button class="bto-nav" type="button">Avançar</button>
+        </nav>
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/perguntas.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
