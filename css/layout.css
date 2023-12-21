@@ -1,12 +1,60 @@
+:root{
+  --cor-textos: #193752;
+  --cor-titulo:rgb(255, 255, 255);
+  --font-textos: 'Archivo Narrow', sans-serif;
+  --font-titulo: 'Archivo Black', sans-serif;
+  --paletta-amarelo-base: #E5BC5E;
+  --paletta-azul-base: #193752;
+  --paletta-verde-claro: #8FC4B6;
+  --paletta-verde-meiotom: #69A696;
+  --paletta-verde-escuro: #3D796A;
+  --feedback-positivo: #7ED957;
+  --feedback-negativo: #FF7C7C;
+}
 html, body {
     height: 100%;
 }
 
 body {
     background: url(../img/bg-desk.png) top center / cover no-repeat #333;
+    font-size: 26px;
 }
 
-
+p, button {
+  font-family: var(--font-textos);
+  font-size: 1em;
+  color: --cor-textos;
+}
+h2 {
+  font-family: var(--font-titulo);
+  color: var(--cor-titulo);
+  font-size: 1em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px #000000a6;
+}
+.top-slide {
+  max-width: 924px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+.pergunta {
+  width: 100%;
+  height: auto;
+  background-color: var(--paletta-amarelo-base);
+  border: 2px solid;
+  border-color: var(--paletta-azul-base);
+  padding: 20px;
+}
+.pergunta p {
+  max-width: 670px;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  margin: auto;
+}
 header.senac {
     background-color: #50D7E2;
   }
@@ -42,7 +90,7 @@ header.senac {
     top: 1.7em;
     top: 15%;
     left: 2.0em;
-    font-size: 1.5em;
+    font-size: 0.923em;
     font-family: 'robotoregular', Arial, Verdana, Helvetica;
     text-transform: uppercase;
   }
