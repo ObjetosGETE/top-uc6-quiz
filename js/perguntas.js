@@ -1,3 +1,16 @@
+var estruturageral = {
+    mensagemfinal: {
+        positiva: [
+            "Muito bem! Você arrasou!",
+            "Se você quiser, você pode praticar novamente clicando no botão abaixo."
+        ],
+        negativa: [
+            "Foi por pouco!",
+            "Talvez seja interessante revisar o conteúdo e tentar de novo.",
+            "Para reiniciar, basta clicar no botão abaixo."
+        ]
+    }
+}
 var perguntas = [
     {
         titulo: "1. Técnica de lapidação",
@@ -5,22 +18,22 @@ var perguntas = [
         respostas: [
             {
                 botao: "a",
-                validação: false,
+                validacao: false,
                 texto: "Ajustar as hastes para ficarem firmes no rosto do usuário."
             },
             {
                 botao: "b",
-                validação: true,
+                validacao: true,
                 texto: "Recortar as lentes no formato da armação escolhida."
             },
             {
                 botao: "c",
-                validação: false,
+                validacao: false,
                 texto: "Alinhar a armação para que não fique frouxa no rosto do usuário."
             },
             {
                 botao: "d",
-                validação: false,
+                validacao: false,
                 texto: "Preencher a ficha técnica com os dados de fabricação e montagem."
             },
         ],
@@ -37,22 +50,22 @@ var perguntas = [
         respostas: [
             {
                 botao: "a",
-                validação: true,
+                validacao: true,
                 texto: "Potência das lentes e marcação do centro óptico."
             },
             {
                 botao: "b",
-                validação: false,
+                validacao: false,
                 texto: "Cor da armação e seu tamanho de ponte e caixa."
             },
             {
                 botao: "c",
-                validação: false,
+                validacao: false,
                 texto: "Peso das lentes e índice de refração."
             },
             {
                 botao: "d",
-                validação: false,
+                validacao: false,
                 texto: "Tamanho da armação, tamanho de ponte, horizontal e maior diagonal."
             },
         ],
@@ -69,22 +82,22 @@ var perguntas = [
         respostas: [
             {
                 botao: "a",
-                validação: false,
+                validacao: false,
                 texto: "Para melhorar a estética."
             },
             {
                 botao: "b",
-                validação: true,
+                validacao: true,
                 texto: "Para garantir um encaixe confortável."
             },
             {
                 botao: "c",
-                validação: false,
+                validacao: false,
                 texto: "Para facilitar a limpeza."
             },
             {
                 botao: "d",
-                validação: false,
+                validacao: false,
                 texto: "Para reduzir o peso das lentes."
             },
         ],
@@ -101,22 +114,22 @@ var perguntas = [
         respostas: [
             {
                 botao: "a",
-                validação: false,
+                validacao: false,
                 texto: "Ajustar a luz ambiente."
             },
             {
                 botao: "b",
-                validação: true,
+                validacao: true,
                 texto: "Posicionar corretamente as lentes na armação."
             },
             {
                 botao: "c",
-                validação: false,
+                validacao: false,
                 texto: "Verificar a potência das lentes."
             },
             {
                 botao: "d",
-                validação: false,
+                validacao: false,
                 texto: "Polir as bordas das lentes."
             },
         ],
@@ -133,22 +146,22 @@ var perguntas = [
         respostas: [
             {
                 botao: "a",
-                validação: false,
+                validacao: false,
                 texto: "A utilização de máquinas automatizadas, como um gerador de curvas."
             },
             {
                 botao: "b",
-                validação: true,
+                validacao: true,
                 texto: "As marcações como DNP, altura e linha de montagem."
             },
             {
                 botao: "c",
-                validação: false,
+                validacao: false,
                 texto: "O uso exclusivo de gabaritos ópticos."
             },
             {
                 botao: "d",
-                validação: false,
+                validacao: false,
                 texto: "A aplicação de revestimento nas lentes."
             },
         ],
@@ -165,22 +178,22 @@ var perguntas = [
         respostas: [
             {
                 botao: "a",
-                validação: false,
+                validacao: false,
                 texto: "Menor precisão"
             },
             {
                 botao: "b",
-                validação: false,
+                validacao: false,
                 texto: "Maior custo."
             },
             {
                 botao: "c",
-                validação: true,
+                validacao: true,
                 texto: "Eficiência e rapidez."
             },
             {
                 botao: "d",
-                validação: false,
+                validacao: false,
                 texto: "Menos opções de personalização."
             },
         ],
@@ -197,22 +210,22 @@ var perguntas = [
         respostas: [
             {
                 botao: "a",
-                validação: true,
+                validacao: true,
                 texto: "Ajusta cuidadosamente a posição das lentes na armação."
             },
             {
                 botao: "b",
-                validação: false,
+                validacao: false,
                 texto: "Troca as lentes por novas."
             },
             {
                 botao: "c",
-                validação: false,
+                validacao: false,
                 texto: "Realiza a lapidação final."
             },
             {
                 botao: "d",
-                validação: false,
+                validacao: false,
                 texto: "Verifica a potência das lentes."
             },
         ],
