@@ -220,3 +220,64 @@ header.senac {
     display: block;
     padding-top: 30px;
   }
+  @media screen and (max-width:1000px){
+    #nome-curso.titulo-longo{
+    width:70%;
+    top:0;
+    }
+  }
+  @media only screen and (max-width: 991px){
+    body {
+      background: url(../img/bg-mobile.png) top center / cover fixed no-repeat #333;
+      font-size: 26px;
+    }
+     #top-quiz{
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+  }
+  }
+  @media only screen and (max-width: 550px){
+    #nome-curso{
+      left:-0.2em;
+      color:#fff;
+      font-size:0.6153846153846154em;
+      /*margin-top:1.41em;		*/
+      top:18%;
+      text-transform:uppercase !important;
+    }
+    #logo-senac{
+      right:1.2em;
+      width:20%;
+    }
+  }
+
+
+@keyframes sprite {
+ 100% {
+   background-position: -1410px;
+ }
+}
+.over-loader{
+  width:100%;
+  height:100%;
+  background-color:rgba(255,255,255,1);
+  position:fixed;
+  display: table;
+  z-index:9999;
+}
+.over-cell{
+  display: table-cell;
+  text-align: center;
+  vertical-align:middle;
+}
+
+#sncload {
+  width: 234px;
+  height: 234px;
+  display: inline-block;
+  background-image: url("../img/senac_loader.png");
+  animation: sprite .9s steps(6) infinite;
+}
+
+  
