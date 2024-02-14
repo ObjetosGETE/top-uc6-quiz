@@ -9,6 +9,9 @@ var estruturageral = {
             "Talvez seja interessante revisar o conteúdo e tentar de novo.",
             "Para reiniciar, basta clicar no botão abaixo."
         ]
+    },
+    config: {
+        acertos_para_vitoria: 0 // 0 = >50% de acertos.
     }
 }
 var perguntas = [

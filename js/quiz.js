@@ -143,7 +143,15 @@ let feedback = function (i, positivo_negativo){
 let montar_slide_final = function(){
     $("#total").text(nro_perguntas);
     let mensagemFinal = "";
-    if(acertos > (nro_perguntas/2)){
+    let regra_vitoria;
+    let acertos_para_vitoria = estruturageral.config.acertos_para_vitoria;
+    
+    if (acertos_para_vitoria === 0 || acertos_para_vitoria === undefined || acertos_para_vitoria === null){
+        regra_vitoria = (nro_perguntas/2);
+    }else {
+        regra_vitoria = acertos_para_vitoria;
+    }
+    if(acertos >= regra_vitoria){
         estruturageral.mensagemfinal.positiva.forEach(element => {
             mensagemFinal += "<p>" + element + "</p>";
             console.log("acerto")
